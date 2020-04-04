@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<h2>Top 5 Out of a 12 Deadliest Viruses</h2>
+<h2>Top 5 Out of 12 Deadliest Viruses</h2>
 
 <table>
     <tr>
