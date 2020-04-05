@@ -19,6 +19,7 @@
         <th>Symptoms</th>
         <th>Duration</th>
         <th>Mortality Rate</th>
+        <th>Image</th>
     </tr>
     <c:forEach var = "listitem" items = "${viruslist}">
         <tr>
@@ -28,6 +29,8 @@
             <td>${listitem.getSymptoms()}</td>
             <td>${listitem.getDuration()}</td>
             <td>${listitem.getMortalityrate()}</td>
+            <td><img src="${listitem.getImage()}" width="100" height="50"></td>
+
         </tr>
 
 

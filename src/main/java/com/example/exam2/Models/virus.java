@@ -15,15 +15,17 @@ public class virus {
     @Column(name = "symptoms") public  String symptoms;
     @Column(name = "duration") public  String duration;
     @Column(name = "mortalityrate") public String mortalityrate;
+    @Column(name = "image") public String image;
 
     public virus() { }
-    public virus(int id, String vname, String description, String symptoms, String duration, String mortalityrate){
+    public virus(int id, String vname, String description, String symptoms, String duration, String mortalityrate, String image){
         this.id = id;
         this.vname = vname;
         this.description = description;
         this.symptoms = symptoms;
         this.duration = duration;
         this.mortalityrate = mortalityrate;
+        this.image = image;
 
     }
 
@@ -44,6 +46,9 @@ public class virus {
 
     public String getMortalityrate(){return mortalityrate;}
     public void setMortalityrate(String mortalityrate){ this.mortalityrate = mortalityrate;}
+
+    public String getImage(){return image;}
+    public void setImage(int image){ this.id = image;}
 
 
 }
